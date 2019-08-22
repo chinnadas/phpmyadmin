@@ -48,7 +48,7 @@ In your Linux terminal navigate to /etc/phpmyadmin/apache.conf and add the follo
 
     Order Allow,Deny
     Allow from 127.0.0.1
-    Allow from 68.24.9.0/24
+    Allow from 68.24.9.0/24     (change your ip range)
 
     <IfModule mod_php5.c>
 The above lines will allow access from 127.0.0.1 and all IP addresses on 68.24.9.x. This scenario would represent if you had the need to allow access from a business network.
