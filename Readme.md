@@ -41,6 +41,8 @@ It is often a good idea to lock down phpMyAdmin access to IP addresses that you 
 
 In your Linux terminal navigate to /etc/phpmyadmin/apache.conf and add the following lines:
 
+vi /etc/phpmyadmin/apache.conf
+
 <Directory /usr/share/phpmyadmin>
 
     Options FollowSymLinks
